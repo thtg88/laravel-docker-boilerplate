@@ -1,0 +1,4 @@
+mysql/*
+!mysql/.keep
+src/*
+!src/.keep
