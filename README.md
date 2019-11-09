@@ -1,8 +1,7 @@
 # Laravel Docker Boilerplate
 This project provides a boilerplate for a Laravel application within a Docker container.
 
-This project is inspired by the video tutorial ["Create a local Laravel dev environment with Docker
-"](https://www.youtube.com/watch?v=5N6gTVCG_rw) by [Andrew Schmelyun](https://twitter.com/aschmelyun)
+This project is inspired by the video tutorial ["Create a local Laravel dev environment with Docker"](https://www.youtube.com/watch?v=5N6gTVCG_rw) by [Andrew Schmelyun](https://twitter.com/aschmelyun)
 
 ## Table Of Contents
 - [Requirements](#requirements)
