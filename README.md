@@ -71,7 +71,7 @@ You will now simply have to push to your git remote of choice.
 
 `make stop` will stop the Docker container.
 
-`make start` will restart the Docker container.
+`make restart` will restart the Docker container.
 
 `make setup` will create the Laravel app.
 
