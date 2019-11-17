@@ -27,9 +27,12 @@ You can either use the standard [`docker-compose`](#using-docker-compose) comman
 
 Your application will be available at http://localhost:8800.
 
-Once your app us ready, please amend your `DB_HOST` in your `.env` file like so:
+Once your app us ready, please amend the following environment variables in your `.env`, to match the ones in your `docker-composer.yml` file, like so:
 ```
 DB_HOST=mysql
+DB_DATABASE=homestead
+DB_USERNAME=homestead
+DB_PASSWORD=secret
 ```
 
 ### Using `docker-compose`
@@ -77,9 +80,9 @@ You will now simply have to push to your git remote of choice.
 
 ## Stack
 This project provides the following stack:
-- Nginx using the [`nginx:stable-alpine`](https://github.com/nginxinc/docker-nginx/blob/0ad6faa0790f423fb239f2b8800dc339d763869a/stable/alpine/Dockerfile) image
-- MySQL 5.7.22 using the `mysql:5.7.22` image
-- PHP 7.2 FPM using the [`php:7.2-fpm-alpine`](https://github.com/docker-library/php/blob/af0a051a02c4f3245752e118e9a0da8c8e291107/7.2/alpine3.10/fpm/Dockerfile) image
+- Nginx using the [`nginx:stable-alpine`](https://github.com/nginxinc/docker-nginx/blob/master/stable/alpine/Dockerfile) image
+- MySQL 5.7 using the [`mysql:5.7`](https://github.com/docker-library/mysql/blob/master/5.7/Dockerfile) image
+- PHP 7.3 FPM using the [`php:7.3-fpm-alpine`](https://github.com/docker-library/php/blob/master/7.3/alpine3.10/fpm/Dockerfile) image
 - Composer, PDO, and PDO MySQL get installed within the build of PHP in the [`Dockerfile`](Dockerfile)
 
 ## Versioning
