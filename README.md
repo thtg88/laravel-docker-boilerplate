@@ -82,7 +82,7 @@ You will now simply have to push to your git remote of choice.
 This project provides the following stack:
 - Nginx using the [`nginx:stable-alpine`](https://github.com/nginxinc/docker-nginx/blob/master/stable/alpine/Dockerfile) image
 - MySQL 5.7 using the [`mysql:5.7`](https://github.com/docker-library/mysql/blob/master/5.7/Dockerfile) image
-- PHP 7.3 FPM using the [`php:7.3-fpm-alpine`](https://github.com/docker-library/php/blob/master/7.3/alpine3.10/fpm/Dockerfile) image
+- PHP 7.4 FPM using the [`php:7.4-fpm-alpine`](https://github.com/docker-library/php/blob/master/7.4/alpine3.10/fpm/Dockerfile) image
 - Composer, PDO, and PDO MySQL get installed within the build of PHP in the [`Dockerfile`](Dockerfile)
 
 ## Versioning
